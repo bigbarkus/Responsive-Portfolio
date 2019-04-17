@@ -215,3 +215,104 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 980px) {
+
+  #main-container {
+    float: left;
+    padding-top: 120px;
+    width: 80%;
+    margin-bottom: 500px;
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+  #masthead {
+  width: 100%;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  nav a {
+    text-align: left;
+    margin-right: 40px;  
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  nav a {
+    text-align: left;
+    margin-right: 40px;  
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+  
+  #logo {
+    margin-left: 20px;
+  }
+
+  #main-container {
+    padding-top: 150px;
+    width: 95%;
+    min-height: calc(100vh - 70px);
+    margin-bottom: 500px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .auth-image {
+    float: left;
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  #masthead {
+    position: static;
+    margin-bottom: 15px;    
+  }
+  #logo {
+    width: 100%;
+  }
+  nav a {
+    text-align: left;
+    margin-right: 40px;  
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+  #main-container {
+    padding-top: 0px;
+    padding-bottom: 1200px;
+  }
+  .auth-image {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
